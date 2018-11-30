@@ -2,7 +2,8 @@
   <div class="col-sm-10">
     <app-shoping-list-edit></app-shoping-list-edit>
     <ul class="list-group shopping-list-group">
-      <a class="list-group-item-action shopping-list-item">Hello</a>
+      <a class="list-group-item-action shopping-list-item"
+      *ngFor="let ingredient of ingredients">{{ ingredient.amount }} {{ ingredient.name }}</a>
     </ul>
   </div>
 </div>
