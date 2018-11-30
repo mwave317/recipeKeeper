@@ -1,0 +1,8 @@
+.shopping-list-group {
+    border-top: 1px solid lightgray;
+    padding-top: 20px;  
+}
+
+.shopping-list-item {
+    cursor: pointer
+}
